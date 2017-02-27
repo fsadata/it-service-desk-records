@@ -1,0 +1,37 @@
+{
+	"fields": [
+		{
+			"name": "WeekStart",
+			"title": "Date of the Week Start",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "ServiceCategory",
+			"title": "Service Category",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Action",
+			"title": "Action",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Number",
+			"title": "Number",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
